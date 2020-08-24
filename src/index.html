@@ -1,0 +1,29 @@
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Flickr Clicker</title>
+    <meta
+      name="description"
+      content="An interactive pattern on top a selection of Flickr photos using Vanilla JS, Webpack and Babel"
+    />
+    <meta name="author" content="Tamara Yadvichuk" />
+  </head>
+  <body>
+    <div class="header">
+      <h1>
+        { Things with faces }
+        <div>with a <span class="smiley">smiley</span> on top</div>
+      </h1>
+      <p class="showWhenDone">
+        Click to change color 👇
+        <button type="button" class="resetBtn">Clear</button>
+      </p>
+      <p class="showBeforeDone">loading...</p>
+      <p class="showOnError">
+        Something went wrong 😞 <button class="reloadBtn">Try again</button>
+      </p>
+    </div>
+    <div id="content"></div>
+    <script src="bundle.js"></script>
+  </body>
+</html>
